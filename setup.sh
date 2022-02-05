@@ -23,7 +23,7 @@ chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
 # these directories will hold the necessary wordpress, db, and caddy files
-mkdir caddy_data caddy_config wordpress db
+mkdir caddy_data caddy_config wordpress database
 
 # start docker
 docker-compose up -d
